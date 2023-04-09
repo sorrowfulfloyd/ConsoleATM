@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 public class userDB
@@ -13,16 +13,13 @@ public class userDB
         this.pin = pin;
         this.balance = balance;
     }
-
     public string Name { get { return name; } set { name = value; } }
     public int Pin { get { return pin; } set { pin = value; } }
     public double Balance { get { return balance; } set { balance = value; } }
-
 }
 
 namespace ConsoleATM
 {
-
     public class Program
     {
         static void Main(string[] args)
@@ -90,9 +87,7 @@ namespace ConsoleATM
                                     goto dORw;
                             }
                         }
-
                         else { goto dORw; }
-
                     }
                     else { goto Pin; }
                 }
