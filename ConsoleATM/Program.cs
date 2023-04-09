@@ -95,8 +95,6 @@ namespace ConsoleATM
 
                     }
                     else { goto Pin; }
-
-
                 }
                 else { goto Name; }
             }
